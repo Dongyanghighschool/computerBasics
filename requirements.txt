@@ -1,0 +1,5 @@
+openai
+streamlit==1.34.0
+pandas
+random
+re
