@@ -7,7 +7,7 @@ from openai import OpenAI  # OpenAI 라이브러리에서 OpenAI 클래스를 �
 @st.cache_data
 def load_data():
     # 지정된 경로에서 CSV 파일을 읽어들입니다. 실제 파일 경로로 변경해야 합니다.
-    df = pd.read_csv('/Users/jinhyukkim/Desktop/develop/computer_science_basics/final_test.csv')
+    df = pd.read_csv('./final_test.csv')
     return df  # 데이터프레임을 반환합니다.
 
 # OpenAI API 클라이언트를 설정합니다.
